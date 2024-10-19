@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stocks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <h1>stock trading dashboard</h1>
+    </nav>
+    <main>
+        <div class="op">
+            <h2>Select trading stock</h2>
+            <div>
+                <select class="selectoptions" name="" id="">
+
+                </select>
+                <button class="loadstk">Load Stock</button>
+            </div>
+        </div>
+        <div>
+            <input class="searchinput" placeholder="search stock by SYMBOL" type="text" name="" id="">
+            <button class="search">search</button>
+        </div>
+
+        <div class="stockinfo">
+            <h1>Stock Information</h1>
+            <p>No information</p>
+        </div>
+        <div class="display">
+            <h1>Stock price graph</h1>
+            <div class="graph">
+                <canvas id="myChart"></canvas>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
