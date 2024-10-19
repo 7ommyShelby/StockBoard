@@ -167,7 +167,7 @@ const createTable = (result) => {
     </thead>
     <tbody>
         <tr>
-        <td>${symbol}</td>
+        <td>${result['Meta Data']['2. Symbol']}</td>
         <td>${result['Time Series (Daily)'][lastDate]["4. close"]}</td>
         <td>${diff}</td>
         <td>${volume}</td>
